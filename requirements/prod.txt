@@ -1,0 +1,10 @@
+-r base.txt
+
+# AWS X-Ray for tracing
+aws-xray-sdk==2.12.0
+
+# Performance monitoring
+ddtrace==1.19.0  # Datadog APM
+
+# Redis for caching and rate limiting
+redis==5.0.1
